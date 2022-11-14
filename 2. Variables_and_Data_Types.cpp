@@ -91,7 +91,7 @@ void trafficLight(bool red_light, bool green_light){
         for(int i = 0; i < 5; i++){
             int counter_red = 5 - i;
             sleep(2.5); // pauses for 2.5 seconds
-            cout << "Stop Wating Time: " << counter_red << "second" << endl; 
+            cout << "Stop Waiting Time: " << counter_red << "second" << endl; 
             if(i == 4){
                 red_light = false;
                 green_light = true;
@@ -110,7 +110,7 @@ void trafficLight(bool red_light, bool green_light){
         for (int i = 0; i < 5; i++){
             int counter_green = 5 - i;
             sleep(2.5); // pauses for 2.5 seconds
-            cout << "Clear Wating Time: " << counter_green << "second" << endl;
+            cout << "Clear Waiting Time: " << counter_green << "second" << endl;
             if(i == 4){
                 red_light = true;
                 green_light = false;
