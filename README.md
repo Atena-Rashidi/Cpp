@@ -9,4 +9,5 @@
     - Do-while loop
     - For loop
     - Nested loop
+6. Array
 
